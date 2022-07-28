@@ -72,7 +72,7 @@ class Login extends Component {
                       onChange={(event) =>
                         this.setState({ name: event.target.value })
                       }
-                    />{" "}
+                    />
                     <br /> 
 
                     <Label className="font-weight-bold mb-2">Contraseña</Label>
@@ -83,7 +83,7 @@ class Login extends Component {
                       onChange={(event) =>
                         this.setState({ password: event.target.value })
                       }
-                    />{" "}
+                    />
                     <br /> <br />
 
                     <Button
