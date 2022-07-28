@@ -9,13 +9,13 @@
     border-radius:0 10px 10px 0 ;
   
   }
-  input{
+  /* input{
     margin-bottom: 30px;
-  }
-  .image{
+  } */
+  /* .image{
    background-image: url('./crudimg.png');
+  } */
   
-  }
   .login-box{
     display: grid;
     align-items: center;
