@@ -1,28 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import Home from "./components/Home"
-import RestaurantUpdate from "./components/RestaurantUpdate"
-import RestaurantCreate from "./components/RestaurantCreate"
-import RestaurantDetail from "./components/RestaurantDetail"
-import RestaurantSearch from "./components/RestaurantSearch"
-import RestauranstList from "./components/RestauranstList"
-import Login from './components/Login'
-import Protected from './components/Protected'
-import Logout from './components/Logout'
+import Home from "./components/Home";
+import RestaurantUpdate from "./components/RestaurantUpdate";
+import RestaurantCreate from "./components/RestaurantCreate";
+import RestaurantDetail from "./components/RestaurantDetail";
+import RestaurantSearch from "./components/RestaurantSearch";
+import RestauranstList from "./components/RestauranstList";
+import Login from "./components/Login";
+import Protected from "./components/Protected";
+import Logout from "./components/Logout";
 // import LoginNew from './components/LoginNew';
 // import SignUp from './components/SignUp';
-
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <Route path="/logout">
           <Logout />
@@ -30,9 +26,6 @@ function App() {
 
         {/* Iniciar sesion */}
         <Route path="/login" render={(props) => <Login {...props} />}>
-          
-
-
           {/* Rutas protegidas */}
         </Route>
         <Protected exact path="/details" component={RestaurantDetail} />
@@ -47,4 +40,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;

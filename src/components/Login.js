@@ -60,7 +60,8 @@ class Login extends Component {
               
               <div class="col login-form">
                 <Form>
-                  <h2 className="font-weight-bold mb-4">Acceder para ver CRUD</h2>
+                  <h2 className="font-weight-bold mb-4">Accede para ver el CRUD</h2>
+                  <br /> 
 
                   <FormGroup>
                     <Label className="font-weight-bold mb-2">Usuario</Label>
@@ -72,7 +73,7 @@ class Login extends Component {
                         this.setState({ name: event.target.value })
                       }
                     />{" "}
-                    <br /> <br />
+                    <br /> 
 
                     <Label className="font-weight-bold mb-2">Contraseña</Label>
                     <Input
@@ -90,8 +91,7 @@ class Login extends Component {
                         this.login();
                       }}
                     >
-                      {" "}
-                     Acceder{" "}
+                     Acceder
                     </Button>
                   </FormGroup>
 
