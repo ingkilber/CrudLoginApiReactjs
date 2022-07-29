@@ -1,0 +1,80 @@
+{
+    "login": [
+      {
+        "name": "kilber",
+        "password": "kilber123"
+      }
+    ],
+    "restaurant": [
+      {
+        "id": 1,
+        "name": "Pizza Hut",
+        "address": "Venezuela",
+        "rating": "4.5",
+        "email": "pizzahut@test.com"
+      },
+      {
+        "id": 2,
+        "name": "McDonald",
+        "address": "Canada",
+        "rating": "4.0",
+        "email": "mcdonald@test.com"
+      },
+      {
+        "name": "kilber Restaurant",
+        "email": "wbr@test.com",
+        "address": "Argentina",
+        "rating": "4.3",
+        "id": 3
+      },
+      {
+        "id": 4,
+        "name": "BBQ nation",
+        "address": "Ecuador",
+        "rating": "4.5",
+        "email": "bbdn@test.com"
+      },
+      {
+        "id": 5,
+        "name": "Haldiram nation",
+        "address": "Peru",
+        "rating": "4.5",
+        "email": "haldiram@test.com"
+      },
+      {
+        "name": "KFC",
+        "email": "kfc@test.com",
+        "address": "Bolivia",
+        "rating": "4.7",
+        "id": 6
+      },
+      {
+        "name": "KFC",
+        "email": "kfc@test.com",
+        "address": "Taiwan",
+        "rating": "4.7",
+        "id": 7
+      },
+      {
+        "name": "sid food",
+        "email": "kfc@test.com",
+        "address": "Mexico",
+        "rating": "4.1",
+        "id": 8
+      },
+      {
+        "name": "youtube",
+        "email": "testresto@youtube.com",
+        "rating": "4.9",
+        "address": "Uruguay",
+        "id": 9
+      },
+      {
+        "name": "youtube 2",
+        "email": "testresto2@youtube.com",
+        "rating": "3.1",
+        "address": "Paraguay",
+        "id": 10
+      }
+    ]
+  }
