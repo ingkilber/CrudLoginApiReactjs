@@ -28,7 +28,7 @@ class RestaurantCreate extends Component {
         return (
             <div>
                 <NavBarManu />
-                <h1>Restaurant Create</h1>
+                <h1>Crear Nuevo Restaurante</h1>
                 <div>
                     <input onChange={(event) => { this.setState({ name: event.target.value }) }}
                         placeholder="Restaurant Name" /> <br /><br />
@@ -38,7 +38,7 @@ class RestaurantCreate extends Component {
                         placeholder="Restaurant Rating" /> <br /><br />
                     <input onChange={(event) => { this.setState({ address: event.target.value }) }}
                         placeholder="Restaurant Address" /> <br /><br />
-                    <button onClick={() => { this.create() }}>Add Restaurant</button>
+                    <button onClick={() => { this.create() }}>Agregar Restaurante</button>
                 </div>
 
             </div>

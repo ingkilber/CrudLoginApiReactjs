@@ -6,7 +6,7 @@ class RestaurantDetail extends Component {
         return (
             <div>
                 <NavBarManu />
-                <h1>Restaurant Details</h1>
+                <h1>Detalle de Restaurante</h1>
                 
             </div>
         );

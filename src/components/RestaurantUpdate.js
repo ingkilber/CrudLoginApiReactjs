@@ -49,7 +49,7 @@ class RestaurantUpdate extends Component {
         return (
             <div>
                 <NavBarManu />
-                <h1>Restaurant Update</h1>
+                <h1>Actualizar Restaurante</h1>
                 <div>
                     <input onChange={(event) => { this.setState({ name: event.target.value }) }}
                         placeholder="Restaurant Name" value={this.state.name} /> <br /><br />
@@ -59,7 +59,7 @@ class RestaurantUpdate extends Component {
                         placeholder="Restaurant Rating"  value={this.state.rating}/> <br /><br />
                     <input onChange={(event) => { this.setState({ address: event.target.value }) }}
                         placeholder="Restaurant Address"  value={this.state.address}/> <br /><br />
-                    <button onClick={() => { this.update() }}>Update Restaurant</button>
+                    <button onClick={() => { this.update() }}>Restaurante Actualizado</button>
                 </div>
             </div>
         );

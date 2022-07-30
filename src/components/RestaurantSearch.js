@@ -52,7 +52,7 @@ class RestaurantSearch extends Component {
         return (
             <Container>
                 <NavBarManu />
-                <h1>Restaurant Search</h1>
+                <h1>Buscar Restaurante</h1>
                
                 <Form.Control type="text"  onChange={(event) => this.search(event.target.value)}   placeholder="Search restaurant" />
                 <div>
@@ -63,10 +63,10 @@ class RestaurantSearch extends Component {
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Name</th>
-                                        <th>Rating</th>
-                                        <th>Location</th>
-                                        <th>Operation</th>
+                                        <th>Nombre</th>
+                                        <th>Clasificación</th>
+                                        <th>Ubicación</th>
+                                        <th>Operación</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -89,7 +89,7 @@ class RestaurantSearch extends Component {
                         :""
                     }
                     {
-                        this.state.noData?<h3>No Data Found</h3>:null
+                        this.state.noData?<h3>Datos no encontrados</h3>:null
                     } 
                 </div>
 

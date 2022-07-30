@@ -45,7 +45,7 @@ class RestauranstList extends Component {
         return (
             <div>
                 <NavBarManu />
-                <h1>Restauranst List</h1>
+                <h1>Restauranste Lista</h1>
                 {
                     this.state.list ?
                         <div>
@@ -53,10 +53,10 @@ class RestauranstList extends Component {
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Name</th>
-                                        <th>Rating</th>
-                                        <th>Location</th>
-                                        <th>Operation</th>
+                                        <th>Nombre</th>
+                                        <th>Clasificación</th>
+                                        <th>Ubicación</th>
+                                        <th>Operación</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -76,7 +76,7 @@ class RestauranstList extends Component {
                                 </tbody>
                             </Table>
                         </div>
-                        : <p>Please Wait...</p>
+                        : <p>Espere por favor...</p>
                 }
             </div>
         );

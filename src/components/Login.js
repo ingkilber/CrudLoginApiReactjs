@@ -25,7 +25,7 @@ class Login extends Component {
   }
   login() {
     console.warn(this.state);
-    fetch("http://localhost:3000/login?q=" + this.state.name).then((data) => {
+    fetch("http://localhost/apisimple/login.php" + this.state.name).then((data) => {
       data.json().then((resp) => {
         console.warn("resp", resp);
         if (resp.length > 0) {
